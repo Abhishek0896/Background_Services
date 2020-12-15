@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D500F9"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/splay"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/spause"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/pause" />
+</LinearLayout>
